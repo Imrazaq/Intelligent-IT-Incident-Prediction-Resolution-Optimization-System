@@ -1,0 +1,28 @@
+              ┌──────────────────┐
+              │   Raw IT Tickets │
+              └─────────┬────────┘
+                        │
+                        ▼
+             ┌────────────────────┐
+             │ Data Cleaning &    │
+             │ Feature Engineering│
+             └─────────┬──────────┘
+                       │
+                       ▼
+      ┌─────────────────────────────────┐
+      │ Machine Learning Layer          │
+      │ - SLA Breach Classifier         │
+      │ - Resolution Time Regressor     │
+      │ - Incident Forecast Model       │
+      └─────────┬───────────────────────┘
+                │
+                ▼
+       ┌─────────────────────┐
+       │ Explainability (SHAP)│
+       └─────────┬───────────┘
+                 │
+                 ▼
+       ┌─────────────────────┐
+       │ Streamlit Web App   │
+       │ Real-Time Prediction│
+       └─────────────────────┘
